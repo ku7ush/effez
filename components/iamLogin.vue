@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <main class="form-signin w-100 m-auto">      
+    <main class="form-signin w-100 m-auto card">      
       <form>
         <div class="mt-5 mb-5 ml-2 mr-2 d-flex justify-content-center align-items-center">
           <NuxtLink to="/"><img src="~~/iam/ui/img/LOGOPEFFETRADEVERT.png/" class="w-100"/></NuxtLink>
@@ -29,7 +29,7 @@
         </div>       
         <button class="w-100 btn btn-lg btn-primary" @click.prevent="tryLogin">Login</button>        
         <div class="row my-2">
-          <div class="col"><NuxtLink class="text-decoration-none" to="/iam/register">Registrati</NuxtLink></div>
+          <!--div class="col"><NuxtLink class="text-decoration-none" to="/iam/register">Registrati</NuxtLink></div-->
           <div class="col text-center"><NuxtLink class="text-decoration-none" to="/iam/reset">Recupera Password</NuxtLink></div>          
         </div>       
       </form>      
