@@ -100,8 +100,8 @@ useHead({
 
 <style scoped>
 .form-signin {
-  max-width: 330px;
-  padding: 15px;
+  max-width: 400px;
+  padding: 50px;
 }
 
 .form-signin .form-floating:focus-within {
