@@ -10,7 +10,7 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-between">
           <div class="d-block col-6">
-            <h5>Benvenuto Utente Test</h5>
+            
           </div>
           
           <div class="d-flex col-6 justify-content-end">

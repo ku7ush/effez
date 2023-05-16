@@ -70,7 +70,7 @@ useHead({
 
 <style scoped>
 footer {
-  margin-top: 19em !important;
+  /*margin-top: 19em !important;*/
 }
 
 .bd-placeholder-img {
