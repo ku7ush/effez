@@ -3,7 +3,7 @@
     <main class="form-signin w-100 m-auto card">      
       <form>
         <div class="mt-5 mb-5 ml-2 mr-2 d-flex justify-content-center align-items-center">
-          <NuxtLink to="/"><img src="~~/iam/ui/img/LOGOPEFFETRADEVERT.png/" class="w-100"/></NuxtLink>
+          <NuxtLink to="/iam/login"><img src="~~/iam/ui/img/LOGOPEFFETRADEVERT.png/" class="w-100"/></NuxtLink>
         </div>
         <!-- Error message -->
         <div v-if="loginError" class="alert alert-danger alert-dismissible fade show" role="alert">

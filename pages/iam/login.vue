@@ -4,6 +4,21 @@
   </div>
 </template>
 
+<script>
+import { connect } from '@/plugins/mssql'
+import { parseConnectionUrl } from 'nodemailer/lib/shared';
+
+async function fetchDataFromSql() {
+  await connect()
+  try {
+    const result = await connection.query('Query di esempio')
+    console.log('Query:', result)
+  } catch (error) {
+    console.error('Errore query:', error)
+  }
+}
+</script>
+
 <style scoped>
 .logincontainer {
   height: 90%;
